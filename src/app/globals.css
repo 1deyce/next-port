@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #020617;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--background);
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+}
