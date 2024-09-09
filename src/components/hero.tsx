@@ -26,7 +26,7 @@ const slugs = [
 
 const Hero = () => {
     return (
-        <section className="mt-6 w-[1280px] rounded-lg p-10">
+        <section className="mt-6 w-[800px] rounded-lg p-10">
             <div className="flex justify-center items-center rounded-md">
                 <h1 className="text-4xl text-white uppercase">
                     Hi, I&apos;m Keenan

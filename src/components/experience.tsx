@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
     return (
-        <section className="w-[850px]">
+        <section className="w-[800px]">
             <h1 className="mb-10 flex justify-center text-center text-4xl text-white uppercase">
                 Previously
             </h1>
