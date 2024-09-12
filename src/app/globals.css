@@ -6,14 +6,10 @@
     --background: #020617;
 }
 
-html {
-    overflow-x: hidden;
-}
-
-body {
+html, body {
     box-sizing: border-box;
     background: var(--background);
     font-family: "Montserrat", sans-serif;
-    padding: 20px;
-    margin: 0 auto;
+    margin: 0;
+    overflow-x: hidden;
 }
