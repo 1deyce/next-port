@@ -1,6 +1,7 @@
 import { CgHello } from "react-icons/cg";
 import IconCloud from "./magicui/icon-cloud";
 import { RiLinkedinBoxFill, RiGithubFill } from "react-icons/ri";
+import Link from "next/link";
 
 const slugs = [
     "typescript",
@@ -38,15 +39,15 @@ const Hero = () => {
             </div>
             <div className="flex justify-center items-center mt-6">
                 <ul className="flex flex-row gap-2">
-                    <li className="text-2xl hover:text-[#007ced]">
-                        <a href="https://www.linkedin.com/in/keenan-deyce">
+                    <li className="text-2xl hover:text-[#007ced] duration-500">
+                        <Link href="https://www.linkedin.com/in/keenan-deyce">
                             <RiLinkedinBoxFill />
-                        </a>
+                        </Link>
                     </li>
-                    <li className="text-2xl hover:text-[#007ced]">
-                        <a href="https:www.github.com/1deyce">
+                    <li className="text-2xl hover:text-[#007ced] duration-500">
+                        <Link href="https:www.github.com/1deyce">
                             <RiGithubFill />
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
