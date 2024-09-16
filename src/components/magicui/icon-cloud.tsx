@@ -30,7 +30,6 @@ export const cloudProps: Omit<ICloud, "children"> = {
         initial: [0.1, -0.1],
         clickToFront: 500,
         tooltipDelay: 0,
-        outlineColour: "000000",
         maxSpeed: 0.03,
         minSpeed: 0.02,
         // dragControl: false,
