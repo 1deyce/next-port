@@ -6,11 +6,9 @@ import sirius from "../public/sirius.jpeg";
 import young from "../public/younglings.jpeg";
 import absa from "../public/absa.jpeg";
 
-import { RiHtml5Fill, RiCss3Fill, RiJavascriptFill,  } from "react-icons/ri";
-
 const Experience = () => {
     return (
-        <section className="w-[800px]">
+        <section className="max-w-[800px] p-8 mt-10 sm:p-4">
             <h1 className="mb-10 flex justify-center text-center text-4xl text-white uppercase">
                 Previously
             </h1>
@@ -18,22 +16,22 @@ const Experience = () => {
                 <li>
                     <hr />
                     <div className="timeline-middle">
-                        <Image src={uni} alt="University of the Western Cape" width={50} height={50} className="m-2 rounded-full" />
+                        <Image src={uni} alt="University of the Western Cape" width={50} height={50} className="m-2 rounded-lg" />
                     </div>
                     <div className="timeline-end mb-10">
                         <time className="font-mono italic">2019 - 2021</time>
                         <div className="text-lg font-semibold text-[#007ced]">
                             University of the Western Cape
                         </div>
-                        Completed a BA Degree in Sport, Recreation & Exercise
-                        Science. Major: Management.
+                        <p className="text-sm">Completed a BA Degree in Sport, Recreation & Exercise
+                        Science. Major: Management.</p>
                     </div>
                     <hr />
                 </li>
                 <li>
                     <hr />
                     <div className="timeline-middle">
-                        <Image src={sirius} alt="Sirius Support" width={50} height={50} className="m-2 rounded-full" />
+                        <Image src={sirius} alt="Sirius Support" width={50} height={50} className="m-2 rounded-lg" />
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">
@@ -42,8 +40,8 @@ const Experience = () => {
                         <div className="text-lg font-semibold text-[#007ced]">
                             Sirius Support
                         </div>
-                        Worked as a Customer Service Agent, providing live text
-                        technical support to a diverse client base.
+                        <p className="text-sm">Worked as a Customer Service Agent, providing live text
+                        technical support to a diverse client base.</p>
                         <br />
                         <span className="mt-2 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Customer Service
@@ -55,16 +53,16 @@ const Experience = () => {
                 <li>
                     <hr />
                     <div className="timeline-middle">
-                        <Image src={young} alt="Younglings Africa" width={50} height={50} className="m-2 rounded-full" />
+                        <Image src={young} alt="Younglings Africa" width={50} height={50} className="m-2 rounded-lg" />
                     </div>
                     <div className="timeline-end mb-10">
                         <time className="font-mono italic">2023</time>
                         <div className="text-lg font-semibold text-[#007ced]">
                             Younglings Africa
                         </div>
-                        Full Stack Developer Intern. Agile Workflow. Contributed
+                        <p className="text-sm">Full Stack Developer Intern. Agile Workflow. Contributed
                         to various projects, utilizing the MERN stack to create
-                        solutions.
+                        solutions.</p>
                         <br />
                         <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             HTML
@@ -102,7 +100,7 @@ const Experience = () => {
                 <li>
                     <hr />
                     <div className="timeline-middle">
-                        <Image src={absa} alt="Absa" width={50} height={50} className="m-2 rounded-full" />
+                        <Image src={absa} alt="Absa" width={50} height={50} className="m-2 rounded-lg" />
                     </div>
                     <div className="timeline-start mb-10 md:text-end">
                         <time className="font-mono italic">
@@ -111,9 +109,9 @@ const Experience = () => {
                         <div className="text-lg font-semibold text-[#007ced]">
                             ABSA Group
                         </div>
-                        Associate AWS Developer. Developed serverless functions
+                        <p className="text-sm">Associate AWS Developer. Developed serverless functions
                         using AWS Lambda, leveraging Node.js to interact with
-                        the AWS SDK and automate AWS-related tasks.
+                        the AWS SDK and automate AWS-related tasks.</p>
                         <br />
                         <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             AWS
