@@ -60,7 +60,7 @@ const Hero = () => {
                         </Link>
                     </li>
                     <li className="text-2xl hover:text-[#007ced] duration-500">
-                        <Link title="GitHub" href="https:www.github.com/1deyce">
+                        <Link title="GitHub" href="https://www.github.com/1deyce">
                             <RiGithubFill />
                         </Link>
                     </li>
