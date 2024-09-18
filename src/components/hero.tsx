@@ -66,7 +66,7 @@ const Hero = () => {
                     </li>
                 </ul>
             </div>
-            <div className="relative bg-slate-800 mt-5 rounded-full flex items-center justify-center overflow-hidden pb-20 pt-4 h-full shadow drop-shadow-xl shadow-slate-950">
+            <div className="relative bg-slate-950 mt-5 rounded-full flex items-center justify-center overflow-hidden pb-20 pt-4 h-full shadow drop-shadow-xl shadow-slate-700">
                 <IconCloud iconSlugs={slugs} />
             </div>
         </section>
