@@ -43,7 +43,7 @@ const Experience = () => {
                         <p className="text-sm">Worked as a Customer Service Agent, providing live text
                         technical support to a diverse client base.</p>
                         <br />
-                        <span className="mt-2 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Customer Service
                         </span>
                     </div>
@@ -64,34 +64,34 @@ const Experience = () => {
                         to various projects, utilizing the MERN stack to create
                         solutions.</p>
                         <br />
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             HTML
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             CSS
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             JS
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             React
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Node.js
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             MongoDB
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Express.js
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Figma
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Tailwind
                         </span>
-                        <span className="mt-2 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mt-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Firebase
                         </span>
                     </div>
@@ -113,13 +113,13 @@ const Experience = () => {
                         using AWS Lambda, leveraging Node.js to interact with
                         the AWS SDK and automate AWS-related tasks.</p>
                         <br />
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             AWS
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Amazon Connect
                         </span>
-                        <span className="mt-2 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                        <span className="mt-1 sm:mt-0 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Node.js
                         </span>
                     </div>

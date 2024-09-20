@@ -34,10 +34,10 @@ const Projects = () => {
                             Simple Bank App
                         </h3>
                         <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
-                            <Image src={python} alt="" width={30} height={30} />
-                            <Image src={html} alt="" width={30} height={30} />
-                            <Image src={flask} alt="" width={30} height={30} />
-                            <Image src={tailwind} alt="" width={30} height={30} />
+                            <Image src={python} alt="Python" width={30} height={30} />
+                            <Image src={html} alt="HTML" width={30} height={30} />
+                            <Image src={flask} alt="Flask" width={30} height={30} />
+                            <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
                         <div className="mt-5 sm:mt-auto text-xs hover:text-white duration-500">
                             <Link 
@@ -72,11 +72,11 @@ const Projects = () => {
                         </h3>
                         <p className="text-xs italic">Modern Blog App</p>
                         <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
-                            <Image src={next} alt="python" width={30} height={30} />
-                            <Image src={graph} alt="flask" width={30} height={30} />
-                            <Image src={tailwind} alt="html" width={30} height={30} />
+                            <Image src={next} alt="Next.js" width={30} height={30} />
+                            <Image src={graph} alt="GraphQL" width={30} height={30} />
+                            <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
-                        <div className="pt-5 sm:mt-auto text-xs hover:text-white duration-500">
+                        <div className="pt-4 sm:mt-auto text-xs hover:text-white duration-500">
                             <Link 
                                 href="https://github.com/1deyce/modern-blog-app/tree/main/cms_blog" 
                                 target="_blank"
@@ -108,11 +108,10 @@ const Projects = () => {
                             Fitness With Gaby
                         </h3>
                         <p className="text-xs italic">Gym & Fitness Website</p>
-                        <p className="mt-3 mb-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
-                            <Image src={vite} alt="python" width={30} height={30} />
-                            <Image src={react} alt="flask" width={30} height={30} />
-                            <Image src={tailwind} alt="html" width={30} height={30} />
-
+                        <p className="mt-3 mb-3 mx-auto flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
+                            <Image src={vite} alt="Vite" width={30} height={30} />
+                            <Image src={react} alt="React" width={30} height={30} />
+                            <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
                         <div className="mt-5 sm:mt-auto text-xs hover:text-white duration-500">
                             <Link 
@@ -147,13 +146,13 @@ const Projects = () => {
                         </h3>
                         <p className="text-xs italic">Waste Management & Tracking App</p>
                         <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
-                            <Image src={react} alt="python" width={30} height={30} />
-                            <Image src={node} alt="flask" width={30} height={30} />
-                            <Image src={mongo} alt="html" width={30} height={30} />
-                            <Image src={express} alt="flask" width={30} height={30} />
-                            <Image src={tailwind} alt="html" width={30} height={30} />
+                            <Image src={react} alt="React" width={30} height={30} />
+                            <Image src={node} alt="Node.js" width={30} height={30} />
+                            <Image src={mongo} alt="MongoDB" width={30} height={30} />
+                            <Image src={express} alt="Express.js" width={30} height={30} />
+                            <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
-                        <div className="pt-5 sm:mt-auto text-xs hover:text-white duration-500">
+                        <div className="pt-4 sm:mt-auto text-xs hover:text-white duration-500">
                             <Link 
                                 href="https://github.com/1deyce/EcoTrack" 
                                 target="_blank"
