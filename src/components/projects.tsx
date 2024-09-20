@@ -18,6 +18,7 @@ import vite from "../public/Vite.js.png";
 import mongo from "../public/MongoDB.png";
 import express from "../public/Express.png";
 import node from "../public/Node.js.png";
+import js from "../public/JavaScript.png";
 
 const Projects = () => {
     return (
@@ -73,6 +74,7 @@ const Projects = () => {
                         <p className="text-xs italic">Modern Blog App</p>
                         <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
                             <Image src={next} alt="Next.js" width={30} height={30} />
+                            <Image src={js} alt="JS" width={30} height={30} className="rounded-md" />
                             <Image src={graph} alt="GraphQL" width={30} height={30} />
                             <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
@@ -111,6 +113,7 @@ const Projects = () => {
                         <p className="mt-3 mb-3 mx-auto flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
                             <Image src={vite} alt="Vite" width={30} height={30} />
                             <Image src={react} alt="React" width={30} height={30} />
+                            <Image src={js} alt="JS" width={30} height={30} className="rounded-md" />
                             <Image src={tailwind} alt="Tailwind" width={30} height={30} />
                         </p>
                         <div className="mt-5 sm:mt-auto text-xs hover:text-white duration-500">
@@ -134,8 +137,8 @@ const Projects = () => {
                         >
                             <Image 
                                 className="size-full top-0 start-0 object-center" 
-                                src={Img4} 
-                                alt="waste management app" 
+                                src={Img4}
+                                alt="Waste Management App"
                             />
                         </Link>
                     </div>
@@ -147,6 +150,7 @@ const Projects = () => {
                         <p className="text-xs italic">Waste Management & Tracking App</p>
                         <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
                             <Image src={react} alt="React" width={30} height={30} />
+                            <Image src={js} alt="JS" width={30} height={30} className="rounded-md" />
                             <Image src={node} alt="Node.js" width={30} height={30} />
                             <Image src={mongo} alt="MongoDB" width={30} height={30} />
                             <Image src={express} alt="Express.js" width={30} height={30} />
