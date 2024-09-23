@@ -27,7 +27,11 @@ const Projects = () => {
                 <h1 className="font-medium text-4xl text-white uppercase mb-10 text-center">Projects</h1>
                 <div className="bg-slate-900 ring-1 ring-inset ring-gray-500/10 rounded-md sm:flex justify-start">
                     <div className="shrink-0 relative w-full rounded-t-md overflow-hidden sm:rounded-s-md sm:max-w-60 md:rounded-se-none md:max-w-xs">
-                        <Image className="size-full top-0 start-0 object-center" src={Img1} alt="bank app" />
+                        <Image 
+                            className="size-full top-0 start-0 object-center hover:scale-105 duration-500" 
+                            src={Img1} 
+                            alt="bank app" 
+                        />
                     </div>
                     <div className="flex flex-wrap justify-center mx-auto text-center">
                         <div className="p-4 flex flex-col h-full sm:p-7">
@@ -60,7 +64,7 @@ const Projects = () => {
                             rel="noreferrer"
                         >
                             <Image 
-                                className="size-full top-0 start-0 object-center" 
+                                className="size-full top-0 start-0 object-center hover:scale-105 duration-500" 
                                 src={Img2} 
                                 alt="blog app" 
                             />
@@ -98,7 +102,7 @@ const Projects = () => {
                             rel="noreferrer"
                         >
                             <Image 
-                                className="size-full top-0 start-0 object-cover" 
+                                className="size-full top-0 start-0 object-cover hover:scale-105 duration-500" 
                                 src={Img3} 
                                 alt="fitness website" 
                             />
@@ -136,7 +140,7 @@ const Projects = () => {
                             rel="noreferrer"
                         >
                             <Image 
-                                className="size-full top-0 start-0 object-center" 
+                                className="size-full top-0 start-0 object-center hover:scale-105 duration-500" 
                                 src={Img4}
                                 alt="Waste Management App"
                             />

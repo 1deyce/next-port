@@ -8,7 +8,7 @@ const Contact = () => {
                 <p>I’d love to connect! If you have any questions or would like to discuss opportunities, please send me an email, and I’ll respond as soon as I can. Looking forward to hearing from you!</p>
                 <br />
                 <p className="italic text-[#007ced] flex"><RiMailAddFill className="h-6 w-6 flex mr-2" /> keenandeyce@gmail.com</p>
-                <a href="mailto:keenandeyce@gmail.com" className="inline-block px-6 py-3 my-10 text-white uppercase font-medium tracking-wider hover:bg-gray-900">
+                <a href="mailto:keenandeyce@gmail.com" className="inline-block px-6 py-3 my-10 text-white uppercase font-medium tracking-wider hover:bg-gray-900 duration-300">
                     Send Email
                 </a>
             </div>
