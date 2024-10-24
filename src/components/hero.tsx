@@ -20,10 +20,13 @@ const slugs = [
     "firebase",
     "git",
     "jira",
+    "trello",
     "github",
     "visualstudiocode",
     "figma",
     "mongodb",
+    "cypress",
+    "slack"
 ];
 
 const Hero = () => {
