@@ -26,7 +26,8 @@ const slugs = [
     "figma",
     "mongodb",
     "cypress",
-    "slack"
+    "slack",
+    "go"
 ];
 
 const Hero = () => {
