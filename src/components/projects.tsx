@@ -7,6 +7,7 @@ import Img2 from "../public/blogapp.png";
 import Img3 from "../public/FWG.png";
 import Img4 from "../public/ecotrack.png";
 import Img5 from "../public/currex.png";
+import Img6 from "../public/flowersetc.png";
 
 import html from "../public/HTML5.png";
 import python from "../public/Python.png";
@@ -22,6 +23,7 @@ import node from "../public/Node.js.png";
 import js from "../public/JavaScript.png";
 import ts from "../public/ts.webp";
 import go from "../public/Go-Logo_Blue.png";
+import shad from "../public/shad.png";
 
 const Projects = () => {
     return (
@@ -205,6 +207,44 @@ const Projects = () => {
                         <div className="pt-4 sm:mt-auto text-xs hover:text-white duration-500">
                             <Link 
                                 href="https://github.com/1deyce/currex" 
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                View Source Code
+                            </Link>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bg-slate-900 ring-1 ring-inset ring-gray-500/10 rounded-md sm:flex">
+                    <div className="shrink-0 relative w-full rounded-t-md overflow-hidden sm:rounded-s-md sm:max-w-60 md:rounded-se-none md:max-w-xs">
+                        <Link 
+                            href="https://flowers-etc.vercel.app"               
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <Image 
+                                className="size-full top-0 start-0 object-center hover:scale-105 duration-500" 
+                                src={Img6}
+                                alt="Florist Site"
+                            />
+                        </Link>
+                    </div>
+                    <div className="flex flex-wrap pl-3 justify-center mx-auto text-center">
+                        <div className="p-4 flex flex-col h-full sm:p-7">
+                        <h3 className="text-lg font-bold text-gray-200">
+                            Flowers Etc...
+                        </h3>
+                        <p className="text-xs italic">Florist Website</p>
+                        <p className="mt-3 flex gap-3 justify-center items-center bg-slate-800 p-2 rounded-md">
+                            <Image src={next} alt="Nextjs" width={30} height={30} />
+                            <Image src={ts} alt="TS" width={30} height={30} className="rounded-md" />
+                            <Image src={tailwind} alt="Tailwind" width={30} height={30} />
+                            <Image src={shad} alt="ShadcnUI" width={30} height={30} />
+                        </p>
+                        <div className="pt-4 sm:mt-auto text-xs hover:text-white duration-500">
+                            <Link 
+                                href="https://github.com/1deyce/flowers-etc" 
                                 target="_blank"
                                 rel="noreferrer"
                             >
