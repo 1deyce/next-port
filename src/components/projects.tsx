@@ -180,7 +180,7 @@ const Projects = () => {
                 <div className="bg-slate-900 ring-1 ring-inset ring-gray-500/10 rounded-md sm:flex">
                     <div className="shrink-0 relative w-full rounded-t-md overflow-hidden sm:rounded-s-md sm:max-w-60 md:rounded-se-none md:max-w-xs">
                         <Link 
-                            href="/"               
+                            href="https://currexx.netlify.app/"               
                             target="_blank"
                             rel="noreferrer"
                         >
