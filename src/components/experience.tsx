@@ -5,6 +5,7 @@ import uni from "../public/uwc.jpeg";
 import sirius from "../public/sirius.jpeg";
 import young from "../public/younglings.jpeg";
 import absa from "../public/absa.jpeg";
+import vula from "../public/vula.jpeg";
 
 const Experience = () => {
     return (
@@ -122,6 +123,53 @@ const Experience = () => {
                         <span className="mt-1 sm:mt-0 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
                             Node.js
                         </span>
+                    </div>
+                    <hr />
+                </li>
+                <li>
+                    <hr />
+                    <div className="timeline-middle">
+                        <Image src={vula} alt="Vula" width={50} height={50} className="m-2 rounded-lg" />
+                    </div>
+                    <div className="timeline-end mb-10">
+                        <time className="font-mono italic">Feb 2025 - Present</time>
+                        <div className="text-lg font-semibold text-[#007ced]">
+                            Vula Medical
+                        </div>
+                        {/* <p className="text-sm">Full Stack Developer Intern. Agile Workflow. Contributed
+                        to various projects, utilizing the MERN stack to create
+                        solutions.</p> */}
+                        <br />
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Python
+                        </span>
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Flask
+                        </span>
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Svelte
+                        </span>
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Typescript
+                        </span>
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            CircleCI
+                        </span>
+                        <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Git
+                        </span>
+                        <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Bitbucket
+                        </span>
+                        {/* <span className="mt-1 mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Figma
+                        </span>
+                        <span className="mr-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Tailwind
+                        </span>
+                        <span className="mt-1 inline-flex items-center rounded-md bg-slate-800 px-3 py-2 text-xs font-medium text-slate-500 ring-1 ring-inset ring-gray-500/10">
+                            Firebase
+                        </span> */}
                     </div>
                 </li>
             </ul>
